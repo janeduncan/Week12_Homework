@@ -1,6 +1,6 @@
+package shop;
 import org.junit.Before;
 import org.junit.Test;
-import shop.Shop;
 import shop.behaviours.ISell;
 import shop.products.Brand;
 import shop.products.accessories.DrumSticks;
@@ -82,7 +82,7 @@ public class ShopTest {
 
     @Test
     public void canCalculatePotentialProfit() {
-        assertEquals(2465, shop.calculatePotentialProfit());
+        assertEquals(2452, shop.calculatePotentialProfit());
     }
 
 }

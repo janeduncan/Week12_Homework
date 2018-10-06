@@ -1,3 +1,4 @@
+package shop.instruments;
 import org.junit.Before;
 import org.junit.Test;
 import shop.products.Brand;
