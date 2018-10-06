@@ -2,7 +2,7 @@ package shop.products;
 
 import shop.behaviours.ISell;
 
-public class Product implements ISell {
+public abstract class Product implements ISell {
 
     private String description;
     private String SKU;
