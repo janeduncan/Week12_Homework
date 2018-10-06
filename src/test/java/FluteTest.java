@@ -11,7 +11,7 @@ public class FluteTest {
 
     @Before
     public void setUp() {
-        flute = new Flute("Pearl PFA-201SU Alto Flute", "S123", Brand.PEARL, 1199, 1599, InstrumentType.BRASS, "Silver Alloy", "Silver", "Alto");
+        flute = new Flute("Pearl PFA-201SU Alto Flute", "S123", Brand.PEARL, 1199, 1599, InstrumentType.WOODWIND, "Silver Alloy", "Silver", "Alto");
     }
 
     @Test
@@ -41,7 +41,7 @@ public class FluteTest {
 
     @Test
     public void getInstrumentType() {
-        assertEquals(InstrumentType.BRASS, flute.getType());
+        assertEquals(InstrumentType.WOODWIND, flute.getType());
     }
 
     @Test
