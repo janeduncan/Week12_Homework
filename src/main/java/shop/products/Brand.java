@@ -5,6 +5,9 @@ public enum Brand {
     YAMAHA,
     VINCENTBACH,
     WESSEX,
-    PEARL
+    PEARL,
+    AHEAD,
+    FENDER,
+    THEPIANOMUSIC
 
 }
